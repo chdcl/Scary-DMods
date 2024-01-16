@@ -1,0 +1,11 @@
+{
+    "id": "scaryDMods",
+    "name": "Scary D-Mods",
+    "author": "chdcl",
+    "version": {"major":0, "minor":1, "patch":0},
+    "dependencies": [],
+    "description": "A small mod which makes vanilla D-mods more impactful and adds a few new ones.",
+    "gameVersion": "0.96a-RC8",
+    "jars": ["jars/Scary D-Mods.jar"],
+    "modPlugin": "data.scripts.scaryDMods"
+}

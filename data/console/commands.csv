@@ -1,0 +1,2 @@
+command,class,tags,syntax,help
+SDM_AddDMods,sdm.console.AddDMods,"cheat,campaign",sdm_adddmods <amount> <ship_index>,"Removes all D-mods from the <ship_index>th ship of the fleet (starting at 0), then adds <amount> D-mods."
