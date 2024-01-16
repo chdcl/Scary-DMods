@@ -71,6 +71,6 @@ Supply cost to recover from deployment reduced by %s.",Reduces shield arc and sp
 Compromised Missile Racks,compromised_missile_racks,,,,"dmod, damage, reqMissiles",,,,TRUE,,0,0,0,0,data.hullmods.added.CompromisedMissileRacks,"Decreases the base ammo capacity of missile weapons by %s. This effect stacks multiplicatively with effects that increase missile ammo capacity.
 
 Supply cost to recover from deployment reduced by %s.",Reduces missile ammo capacity.,,graphics/hullmods/compromised_missile_racks.png
-Degraded Missile Loader,degraded_missile_loader,,,,"dmod, damage, reqMissiles",,,,TRUE,,0,0,0,0,data.hullmods.added.DegradedMissileLoader,"Decreases the rate of fire of missiles weapons by %s.
+Degraded Missile Loader,degraded_missile_loader,,,,"dmod, damage, reqMissiles",,,,TRUE,,0,0,0,0,data.hullmods.added.DegradedMissileLoader,"Decreases the rate of fire of missiles weapons by %s, and their ammo regeneration rate by %s.
 
-Supply cost to recover from deployment reduced by %s.",Decreases missile fire rate,,graphics/hullmods/degraded_missile_loader.png
+Supply cost to recover from deployment reduced by %s.",Decreases missile fire rate and ammo regen.,,graphics/hullmods/degraded_missile_loader.png

@@ -9,6 +9,7 @@ import static utils.DModUtils.*;
 
 public class DegradedMissileLoader extends BaseHullMod {
     public static float MISSILE_ROF_MULT = 0.6f;
+    public static float MISSILE_AMMO_REGEN_MULT = 0.6f;
 
     @Override
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
@@ -19,12 +20,13 @@ public class DegradedMissileLoader extends BaseHullMod {
         }
 
         stats.getMissileRoFMult().modifyMult(id, dModMult(MISSILE_ROF_MULT, stats));
+        stats.getMissileAmmoRegenMult().modifyMult(id, dModMult(MISSILE_AMMO_REGEN_MULT, stats));
 
         modifyCost(hullSize, stats, id);
     }
 
     @Override
     public String getDescriptionParam(int index, ShipAPI.HullSize hullSize, ShipAPI ship) {
-        return getMultDescriptionParam(index, ship, new float[]{MISSILE_ROF_MULT});
+        return getMultDescriptionParam(index, ship, new float[]{MISSILE_ROF_MULT, MISSILE_AMMO_REGEN_MULT});
     }
 }
